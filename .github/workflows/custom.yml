@@ -20,4 +20,4 @@ jobs:
           allure-project-id: 199
           allure-token: 22963d09-04a0-4711-8f4c-88ee0e28dbf5
       - name: Build with Gradle and upload to Allure TestOps
-        run: allurectl upload.
+        run: allurectl upload .
