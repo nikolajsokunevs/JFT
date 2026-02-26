@@ -1,4 +1,4 @@
-name: Run tests
+name: Run tests_empty
 on:
   workflow_dispatch:
     inputs:
@@ -35,4 +35,4 @@ jobs:
           echo "ALLURE_JOB_RUN_ID = ${{ github.event.inputs.ALLURE_JOB_RUN_ID }}"
           echo "ALLURE_USERNAME   = ${{ github.event.inputs.ALLURE_USERNAME }}"
       - name: Build with Gradle and upload to Allure TestOps
-        run: allurectl upload .
+        run: echo "TEST"
