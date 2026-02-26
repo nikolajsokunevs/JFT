@@ -30,3 +30,10 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: echo "Hello ${{ inputs.name }}"
+
+    - name: Install and configure allurectl
+      uses: allure-framework/setup-allurectl@v1.0.2
+        with:
+          allure-endpoint: https://softlabs.testops.cloud/
+          allure-token: 22963d09-04a0-4711-8f4c-88ee0e28dbf5
+          allure-project-id: 199
