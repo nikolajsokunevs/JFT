@@ -1,0 +1,92 @@
+{
+    "name": "Login with valid credentials",
+    "start": 1772022101182,
+    "stop": 1772022106298,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Conditions",
+            "start": 1772022101296,
+            "stop": 1772022101316,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+                {
+                    "name": "0 - COMMON_CONDITION_KEY_0",
+                    "start": 1772022101297,
+                    "stop": 1772022101316,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                }
+            ],
+            "attachments": [],
+            "parameters": []
+        }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "uuid": "08ca7834-eefa-45a9-a226-2a85725c6add",
+    "historyId": "fe67390fae2b9d408327b8d4f31f928",
+    "fullName": "LoginTests.loginWithValidCredentials",
+    "labels": [
+        {
+            "name": "package",
+            "value": "login"
+        },
+        {
+            "name": "testClass",
+            "value": "LoginTests"
+        },
+        {
+            "name": "testMethod",
+            "value": "loginWithValidCredentials"
+        },
+        {
+            "name": "suite",
+            "value": "LoginTests"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: InstrumentationTestRunner(81)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "feature",
+            "value": "Universal cases"
+        },
+        {
+            "name": "story",
+            "value": "Login page"
+        }
+    ],
+    "links": [
+        {
+            "name": "https://softlabsqa.testrail.io/index.php?/cases/view/71278",
+            "type": "tms"
+        }
+    ]
+}

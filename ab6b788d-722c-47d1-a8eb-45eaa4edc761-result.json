@@ -1,0 +1,92 @@
+{
+    "name": "Login with invalid credentials",
+    "start": 1772022034934,
+    "stop": 1772022040100,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+        {
+            "name": "Conditions",
+            "start": 1772022035000,
+            "stop": 1772022035028,
+            "stage": "finished",
+            "description": null,
+            "descriptionHtml": null,
+            "status": "passed",
+            "statusDetails": null,
+            "steps": [
+                {
+                    "name": "0 - COMMON_CONDITION_KEY_0",
+                    "start": 1772022035001,
+                    "stop": 1772022035028,
+                    "stage": "finished",
+                    "description": null,
+                    "descriptionHtml": null,
+                    "status": "passed",
+                    "statusDetails": null,
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": []
+                }
+            ],
+            "attachments": [],
+            "parameters": []
+        }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "uuid": "ab6b788d-722c-47d1-a8eb-45eaa4edc761",
+    "historyId": "8eb028b13ccc00d2d1ef0f176cdbec9f",
+    "fullName": "LoginTests.loginWithInvalidCredentials",
+    "labels": [
+        {
+            "name": "package",
+            "value": "login"
+        },
+        {
+            "name": "testClass",
+            "value": "LoginTests"
+        },
+        {
+            "name": "testMethod",
+            "value": "loginWithInvalidCredentials"
+        },
+        {
+            "name": "suite",
+            "value": "LoginTests"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: InstrumentationTestRunner(81)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        },
+        {
+            "name": "feature",
+            "value": "Universal cases"
+        },
+        {
+            "name": "story",
+            "value": "Login page"
+        }
+    ],
+    "links": [
+        {
+            "name": "https://softlabsqa.testrail.io/index.php?/cases/view/89658",
+            "type": "tms"
+        }
+    ]
+}
