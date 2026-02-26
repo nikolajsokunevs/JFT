@@ -39,4 +39,3 @@ jobs:
         allure-project-id: 199
 
     - name: Upload results to Allure TestOps
-      run: allurectl upload .
