@@ -27,8 +27,6 @@ jobs:
       - name: Install and configure allurectl
         uses: allure-framework/setup-allurectl@v1.0.2
         with:
-          allure-endpoint: https://softlabs.testops.cloud
-          allure-project-id: 199
           allure-token: ${{ secrets.ALLURE_TOKEN }}
       - name: Print Allure service params
         run: |
